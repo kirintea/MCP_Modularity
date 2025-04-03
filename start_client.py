@@ -2,7 +2,7 @@ from client.siliconflow import MCPClientSiliconflow
 
 LLM_QUESTION_URL_CONFIG = "https://api.siliconflow.cn"
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
-API_KEY = "sk-rmprjadkeedwjibjztyjzwmzxmvzmyjspvlwhpkwgqujzdjs"
+API_KEY = "sk-"
 
 def create_client_instance(mcp_url: str, llm_api_url: str, llm_api_key: str, llm_model: str, llm_stream: bool) -> MCPClientSiliconflow:
     """
