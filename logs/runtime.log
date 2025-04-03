@@ -1,0 +1,25 @@
+[INFO]:server.py>143: MCPServer实例: MCPServer_11111正在运转...
+[INFO]:base.py>367: 尝试连接到服务器...
+[INFO]:base.py>369: 服务器已连接!
+[INFO]:base.py>381: 当前命令: 使用python执行print("hello")
+[INFO]:base.py>325: 尝试工具: execute_python_code 参数: {"code": "print(\"hello\")"}
+[INFO]:executor.py>53: Received command: execute_python_code with parameters: {'code': 'print("hello")'}
+[INFO]:executor.py>86: Executing function: execute_python_code with parameters: {'code': 'print("hello")'}
+[INFO]:executor.py>55: Execution status: success
+[ERROR]:base.py>357: Error executing tool execute_python_code: Object of type type is not JSON serializable
+[INFO]:base.py>325: 尝试工具: execute_python_code 参数: {"code": "print('hello')"}
+[INFO]:executor.py>53: Received command: execute_python_code with parameters: {'code': "print('hello')"}
+[INFO]:executor.py>86: Executing function: execute_python_code with parameters: {'code': "print('hello')"}
+[INFO]:executor.py>55: Execution status: success
+[ERROR]:base.py>357: Error executing tool execute_python_code: Object of type type is not JSON serializable
+[INFO]:base.py>325: 尝试工具: execute_python_code 参数: {"code": "print('hello')"}
+[INFO]:executor.py>53: Received command: execute_python_code with parameters: {'code': "print('hello')"}
+[INFO]:executor.py>86: Executing function: execute_python_code with parameters: {'code': "print('hello')"}
+[INFO]:executor.py>55: Execution status: success
+[ERROR]:base.py>357: Error executing tool execute_python_code: Object of type type is not JSON serializable
+[INFO]:base.py>325: 尝试工具: execute_python_code 参数: {'code': 'print(\"hello\")'}
+[INFO]:executor.py>53: Received command: execute_python_code with parameters: {'code': 'print("hello")'}
+[INFO]:executor.py>86: Executing function: execute_python_code with parameters: {'code': 'print("hello")'}
+[INFO]:executor.py>55: Execution status: success
+[ERROR]:base.py>357: Error executing tool execute_python_code: Object of type type is not JSON serializable
+[INFO]:base.py>389: 处理完成: 使用python执行print("hello")
