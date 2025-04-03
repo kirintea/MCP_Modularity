@@ -12,7 +12,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 LLM_QUESTION_URL_CONFIG = "https://api.siliconflow.cn/v1/chat/completions"
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
 HEADERS = {
-    'Authorization': 'Bearer sk-rmprjadkeedwjibjztyjzwmzxmvzmyjspvlwhpkwgqujzdjs',
+    'Authorization': 'Bearer sk-',
     'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
     'Content-Type': 'application/json'
 }
